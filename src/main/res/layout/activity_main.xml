@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/backg1"
+    tools:context=".MainActivity">
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="295dp"
+        android:hint="Enter Name"
+        android:background="#7EB7E4"
+        android:id="@+id/pangalan"
+        android:padding="5dp" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="PROCEED"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal|bold"
+        android:backgroundTint="#25FFFF"
+        android:textColor="#002AA5"
+        android:padding="10dp"
+        android:onClick="goToPage2"/>
+</LinearLayout>
